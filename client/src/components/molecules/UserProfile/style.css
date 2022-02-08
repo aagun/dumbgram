@@ -1,0 +1,4 @@
+.profile a.btn,
+.profile a.btn:hover {
+  padding: 0.5rem 2rem !important;
+}

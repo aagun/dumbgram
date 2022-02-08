@@ -1,0 +1,151 @@
+.auth a.btn-primary,
+.auth a.btn-primary:hover {
+  background: unset !important;
+  font-weight: 400 !important;
+  padding: 0;
+  margin: 0;
+}
+.auth a.btn-primary:hover {
+  text-decoration: underline;
+}
+.auth a.btn {
+  font-size: 14px;
+  vertical-align: unset;
+}
+
+/* div.detail-image .modal-body {
+  padding: 0 !important;
+}
+
+div.detail-image .modal-dialog {
+  width: 500px !important;
+} */
+
+/*MODAL IMAGES CONTAINER*/
+.detail-feed-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+}
+
+.detail-feed-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 9%;
+  left: 10%;
+  width: 85%;
+  min-height: 450px;
+  z-index: 10000;
+}
+
+.detail-feed-image {
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  width: 700px;
+  min-width: 500px;
+  max-height: 100%;
+  background: #0b0b0b;
+  z-index: 10000;
+}
+
+.detail-feed-image > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 80%;
+  width: 100%;
+  min-height: 650px;
+  height: 650px;
+  z-index: 10000;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.PhotosInfoModal,
+.detail-feed-info {
+  border-radius: 0 10px 10px 0;
+  max-width: 30%;
+  width: 25%;
+  background: #0b0b0b;
+  z-index: 10000;
+  color: white;
+  padding: 0px 30px;
+}
+
+.detail-feed-info .close {
+  position: absolute;
+  right: 14.6%;
+  top: 2.5%;
+}
+
+.detail-feed-info .description {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.357);
+}
+
+.detail-feed-info input[type="text"] {
+  border: unset;
+  padding: 10px 10px;
+  color: white !important;
+  font-weight: 600;
+}
+
+.detail-feed-info input::placeholders {
+  color: white;
+  font-weight: 600;
+}
+
+.detail-feed-info .description > img {
+  margin-right: 10px;
+}
+
+.detail-feed-info .comment-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+.detail-feed-info .comment {
+  display: flex;
+  margin-top: 20px;
+}
+
+.detail-feed-info .bg-rainbow {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.detail-feed-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.detail-feed-info .comment p {
+  margin-bottom: 0;
+}
+
+.detail-feed-info .comment > div p:first-child,
+.detail-feed-info .description p:first-child {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.detail-feed-info .comment > div p:not(:first-child),
+.detail-feed-info .description p:not(:first-child) {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #ababab !important;
+}

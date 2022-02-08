@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Rochester&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+.bg-rainbow {
+  background: linear-gradient(
+    90deg,
+    #4dd4f7 0%,
+    #9090fb 36.46%,
+    #ff6b81 71.35%,
+    #fbdf63 100%
+  );
+}
+
+.btn-primary,
+.btn-primary:hover,
+a.btn-primary,
+a.btn-primary:hover {
+  background: linear-gradient(
+    90deg,
+    #4dd4f7 0%,
+    #9090fb 36.46%,
+    #ff6b81 71.35%,
+    #fbdf63 100%
+  ) !important;
+  border: none !important;
+  color: white;
+  font-weight: 600 !important;
+}
+
+a.btn-primary,
+a.btn-primary:hover {
+  padding: initial;
+  margin: initial;
+}
+
+a.btn,
+a.btn:hover {
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+  background: none !important;
+  border: none !important;
+  color: #b7b7b7;
+  font-weight: 600 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.w-40 {
+  width: 32% !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0b0b0b !important;
+}
+
+.landing-page {
+  height: 100vh;
+}
+
+.landing-page > div:first-child {
+  margin-top: -15%;
+}
+
+.landing-page .title {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.landing-page .description {
+  color: #6a6a6a;
+  font-size: 18px;
+  max-width: 80%;
+  font-weight: 400;
+}
+
+.modal-dialog {
+  max-width: 350px !important;
+  border-radius: 10px;
+}
+
+.modal-content {
+  border-radius: 10px !important;
+  background-color: #1f1f1f !important;
+  padding: 0.5rem;
+}
+
+.modal-header {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.modal-header .h4 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.modal-footer {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.85rem;
+}
+
+/* Form */
+textarea.form-control,
+input.form-control {
+  color: white;
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #d2d2d2;
+  font-size: 16px;
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+  box-shadow: none;
+  color: white;
+  background: rgba(210, 210, 210, 0.25);
+}
+/* End Form */
+
+/* Mansory */
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%; /* gutter size offset */
+  width: auto;
+  padding-top: 50px;
+}
+.my-masonry-grid_column {
+  padding-left: 10px; /* gutter size */
+  background-clip: padding-box;
+}
+/* Style your items */
+.my-masonry-grid_column > div {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.my-masonry-grid_column > div > img {
+  width: 100%;
+  position: relative;
+  transition: all 0.3s ease;
+  filter: brightness(80%);
+  margin-left: 0;
+}
+
+.my-masonry-grid_column > div > img:hover {
+  filter: brightness(100%);
+  z-index: 50;
+  box-shadow: 0px 0px 5px 2px rgb(48, 47, 47);
+}
+/* End Mansory */
+
+.profile-background {
+  background: linear-gradient(
+    90deg,
+    #4dd4f7 0%,
+    #9090fb 10%,
+    #ff6b81 60%,
+    #fbdf63 80%
+  );
+  border-radius: 50%;
+}
+
+.profile-image-md {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  object-fit: cover;
+}
+
+.profile-username-md {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.profile-message-md {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.profile-image-sm {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  object-fit: cover;
+}
+
+.profile-name-sm {
+  color: white;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 5px solid transparent;
+  object-fit: cover;
+}
+
+.profile-name {
+  color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+}
+
+.profile-username {
+  color: white;
+  margin-bottom: 3.5rem;
+}
+
+.insight {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.insight > div > p:last-child {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.insight > div:not(:last-child) {
+  border-right: 1px solid rgba(106, 106, 106, 0.3) !important;
+}
+
+.bio {
+  margin-top: 2.8rem !important;
+  font-size: 13px;
+  color: white;
+}
+
+.side-navbar > div {
+  border-top: 1px solid rgba(106, 106, 106, 0.3) !important;
+  margin: 3rem 2.6rem 0 2.6rem;
+}
+
+.side-navbar > div > a {
+  margin-top: 2.3rem;
+  text-align: left;
+}
+
+.side-navbar a {
+  color: white;
+}
+
+.side-navbar a > img {
+  margin-right: 1rem;
+}
+
+.feed input[type="search"],
+.message input[type="search"],
+.message input[type="text"] {
+  border: none;
+}
+
+.feed .input-group-text,
+.message .input-group-text {
+  border: none;
+  color: #b1b1b1;
+  background: rgba(210, 210, 210, 0.25);
+}
+
+.feed .input-group-text button,
+.message .input-group-text button {
+  border: none;
+  color: #b1b1b1;
+  background: transparent;
+}
+
+.feed > div:first-child,
+.message > div:first-child {
+  border-right: 1px solid rgba(106, 106, 106, 0.3);
+}
+
+input[type="checkbox"][id^="cb"] {
+  display: none;
+}
+
+div label svg {
+  cursor: pointer !important;
+}
+
+:checked + label path {
+  fill: red !important;
+  stroke: red !important;
+}
+
+.contact-container {
+  max-height: 86vh;
+  overflow-y: scroll;
+  margin-top: 40px;
+}
+
+.message .contact-container > div:last-child {
+  margin-bottom: 0 !important;
+}
+
+.chat-me {
+  background: #262626;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.chat-other {
+  background: #575757;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 400px;
+}
+
+.masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1%; /* gutter size offset */
+  margin-right: 2%;
+  width: auto;
+  margin-top: 50px;
+  height: 108vh;
+  overflow: hidden scroll;
+}
+.masonry-grid_column {
+  padding-left: 20px; /* gutter size */
+  background-clip: padding-box;
+}
+/* Style your items */
+.masonry-grid_column > div {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.masonry-grid_column > div > img {
+  width: 100%;
+  position: relative;
+  transition: all 0.3s ease;
+  filter: brightness(80%);
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+.masonry-grid_column > div > img:hover {
+  filter: brightness(100%);
+  z-index: 50;
+  box-shadow: 0px 0px 5px 2px rgb(48, 47, 47);
+  border-radius: 5px;
+}

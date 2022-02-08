@@ -1,0 +1,116 @@
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: unset !important;
+}
+
+.dropdown-menu {
+  top: 60px;
+  right: 0px;
+  left: unset;
+  width: 460px;
+  /* box-shadow: 0px 5px 7px -1px #c1c1c1; */
+  padding-bottom: 0px;
+  padding: 0px;
+}
+
+.dropdown-menu:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 12px;
+  border: 10px solid #343a40;
+  border-color: transparent transparent #343a40 transparent;
+}
+
+.notification-box {
+  padding: 10px 0px;
+  color: white;
+}
+
+.notification {
+  cursor: pointer;
+}
+#popover-basic::before {
+  width: 100%;
+  background-color: red;
+}
+
+#popover-basic {
+  border-radius: 8px;
+  background: #1f1f1f;
+  /* transform: translate(1084px, 95.75px) !important; */
+  left: -8.161% !important;
+  top: 2.5% !important;
+  min-width: 350px !important;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.popover-body {
+  height: 150px !important;
+  overflow-y: auto;
+  padding-top: 0 !important;
+  padding-bottom: 0rem !important;
+}
+
+.popover-body > div.row {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.popover-body > div.row:last-child {
+  margin-bottom: 1.2rem !important;
+}
+
+.popover-body > div span {
+  color: #ababab;
+}
+
+.popover-header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  /* border-radius: 8px 8px 0 0; */
+}
+
+.popover .popover-arrow::after,
+.popover .popover-arrow::before {
+  border-width: 8px 10px 21px 8px !important;
+  border-bottom-color: #1f1f1f !important;
+  border-bottom-width: 18px !important;
+}
+
+.popover-arrow {
+  transform: translate(303.75px, -16px) !important;
+}
+
+.overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+.overlay.on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+nav input[type="search"] {
+  margin-left: 0 !important;
+}
